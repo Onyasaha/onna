@@ -201,3 +201,133 @@ header{
 /*****************************
          match.html end        
 *****************************/
+
+/*******************************
+        footer start
+***********************************/
+footer{
+    background-color: gray;
+    min-height: 600px;
+    width: 100%;
+}
+.footer-title{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 50px;
+    font-size: 2em;
+}
+.breack{
+    color: aliceblue;
+    width: 70%;
+    margin-bottom: 50px;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+}
+.footer-icon a{
+    color: white;
+    font-size: 1.5em;
+    display: inline-block;
+    margin-left: 10px;
+}
+.footer-text{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.footer-text a{
+   text-decoration: none;
+   color: black;
+   font-size: 1.5em;
+   margin-right: 70px;
+}
+/**********************************
+         footer end
+************************************/
+/******************************************
+             media start                   
+********************************************/
+@media screen and (min-width:577px) and (max-width:1200px){
+    .header{
+        font-size: 13px;
+    }
+    .transefer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .play-time{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .list{
+        flex-direction: row;
+        background: none;
+        height: 100px;
+        width: 100%;
+    }
+    .hide-button a{
+        text-decoration: none;
+        color: aliceblue;
+        background-color: red;
+        border-radius: 3%;
+        padding: 20px 40px;
+        font-size: 1.5em;
+        width: 30%;
+        display: block;
+        text-align: center;
+        margin-left: 80%;
+        margin-top: 30px;
+        visibility: visible;
+}
+    #footer{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:577px){
+    .header{
+        font-size: 13px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .transefer{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .play-time{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .list{
+        flex-direction: column;
+        background: none;
+        height: 400px;
+        width: 100%;
+    }
+    .footer-text{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .text a{
+        display: block;
+        margin-bottom: 20px;
+        margin-left: 50px;
+    }
+}
+/******************************************
+             media end                   
+********************************************/
