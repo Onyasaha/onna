@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+h1, h2{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+p{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
