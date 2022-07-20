@@ -64,3 +64,140 @@ header{
 /*********************************
        Header-end
 *********************************/
+/*************************************
+      main start                 
+*********************************/
+.container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    height: 350px;
+    margin-right: 30px;
+}
+.match-btn  a{
+    text-decoration: none;
+    background-color: black;
+    color: aliceblue;
+    display: block;
+    margin: 20px;
+    padding: 20px 30px;
+    border-radius: 9px;
+    font-size: 1.5em;
+    text-align: center;
+
+}
+.group-btn a{
+    text-decoration: none;
+    background-color: black;
+    color: aliceblue;
+    display: block;
+    margin: 20px;
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 9px;
+}
+.blog-btn a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    display: block;
+    margin: 20px;
+    padding: 20px 50px;
+    border-radius: 9px;
+    text-align: center;
+    font-size: 1.5em;
+}
+.transefer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.box{
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    
+}
+.transefer-img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.box button{
+    font-size: 1em;
+    padding: 5px 15px;
+    margin-left: 20px;
+}
+.box h2{
+    margin-left: 20px;
+}
+.icon{
+    color: grey;
+    margin-left: 20px;
+}
+.time{
+    margin-right: 50px;
+    font-size: 1.5em;
+}
+.fa-regular, .fa-solid{
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+.hide-button a{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: red;
+    border-radius: 3%;
+    padding: 20px 40px;
+    font-size: 1.5em;
+    width: 30%;
+    display: block;
+    text-align: center;
+    margin-left: 90%;
+    margin-top: 30px;
+    visibility: hidden;
+}
+/****************************
+          main end
+*******************************/
+
+
+/*****************************
+         match.html start        
+*****************************/
+.play-time{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.match{
+    border: 1px solid gray;
+    border-radius: 15px;
+    height: 200px;
+    padding: 80px;
+    background-color: aliceblue;
+
+}
+.highlite a{
+    background-color: red;
+}
+.lowlight a{
+    background-color: black;
+}
+.teem{
+    display: flex; 
+}
+.flag-1, .VS{
+    margin-right: 30px;
+}
+/*****************************
+         match.html end        
+*****************************/
